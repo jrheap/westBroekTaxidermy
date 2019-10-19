@@ -16,7 +16,7 @@ function NavbarBottom() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ">
-      <div className="col-3"><a className="nav-item nav-link active" href="./Home">About <span className="sr-only">(current)</span></a></div>
+      <div className="col-3" ><a id="aboutArt" className="nav-item nav-link active" href="./Home">About the Artist <span className="sr-only">(current)</span></a></div>
       <div className="col-3"><a className="nav-item nav-link" href="./Gallery">Gallery</a></div>
       <div className="col-3"><a className="nav-item nav-link" href="#">Awards</a></div>
       <div className="col-3"><a className="nav-item nav-link" href="#">Services</a></div>

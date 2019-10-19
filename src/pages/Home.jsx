@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import NavbarBottom from "../components/NavbarBottom";
 import "./Home.css";
-import Background from "./BGimages/bgtest1.jpg";
-import Blogo from "./BGimages/BlogoWhiteTest1.png"
+import Background from "./BGimages/bgtake1.jpg";
+import Blogo from "./BGimages/BlogoWhiteTest12.png"
 
 class Home extends Component {
   state = {};
@@ -23,6 +23,13 @@ class Home extends Component {
                 <div className="col-3" id="bigLogo">
                 <img id="blogo" alt="Blogo" src= {Blogo}/>
                 </div>
+              </div>
+            </div>
+            <div className="container">
+              <div className="row">
+              <h6 id="mission" >Westbroek Taxidermy  holds high regards to  life and nature, 
+               as we create quality masterpieces that will recapture moments in time.</h6>
+
               </div>
             </div>
           </div>
