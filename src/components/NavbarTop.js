@@ -1,12 +1,12 @@
 import React from "react";
+import Slogo from "../pages/BGimages/cropTest1.png";
 
 
 function navbarTop() {
   return (
     
     <nav className="navbar fixed-top navbar-expand-lg row">
-      
-    <a className="navbar-brand col-1 " href="./">Logo</a>
+      <img id="slogo" alt="Slogo" src= {Slogo}/>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>

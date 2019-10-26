@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarBottom from "../components/NavbarBottom";
 import "./Home.css";
-import Background from "./BGimages/bgtake1.jpg";
+import Background from "./BGimages/bgtest6.jpg";
 import Blogo from "./BGimages/BlogoWhiteTest12.png"
 
 class Home extends Component {
