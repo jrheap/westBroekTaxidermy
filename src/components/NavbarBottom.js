@@ -1,5 +1,5 @@
 import React from "react";
-import Slogo from "../pages/BGimages/cropTest1.png";
+import Slogo from "../pages/BGimages/simplifiedwhite.png";
 
 
 function NavbarBottom() {
@@ -16,12 +16,12 @@ function NavbarBottom() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ">
-      <div className="col-3" ><a id="aboutArt" className="nav-item nav-link active" href="./Home">About the Artist <span className="sr-only">(current)</span></a></div>
+      <div className="col-3"><a className="nav-item nav-link active" href="./About">About The Artist<span className="sr-only">(current)</span></a></div>
       <div className="col-3"><a className="nav-item nav-link" href="./Gallery">Gallery</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="#">Awards</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="#">Services</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="#">Contact</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="#">Reviews</a></div>
+      <div className="col-3"><a className="nav-item nav-link" href="./Awards">Awards</a></div>
+      <div className="col-3"><a className="nav-item nav-link" href="./Services">Services</a></div>
+      <div className="col-3"><a className="nav-item nav-link" href="./Contact">Contact</a></div>
+      <div className="col-3"><a className="nav-item nav-link" href="./Reviews">Reviews</a></div>
       
       </div>
     </div>

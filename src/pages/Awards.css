@@ -1,0 +1,39 @@
+#awardPhoto1{
+  
+}
+
+.card-deck{
+    margin-top: 5%;
+}
+
+.card {
+    border: none;
+}
+a:active {
+    background-color: yellow;
+  }
+.card-img-top{
+    height: auto;
+    width: 300px;
+    box-shadow:0 0 10px #000000;
+}
+#awardCard{
+    width: 1602px;
+margin-left: -13%;
+}
+#awardsTitle{
+    color: orange;
+    margin-top: 10%;
+    font-size: 75px;
+}
+.card-img-top:hover{
+    height: auto;
+    width: 500px;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: 3000;
+  
+}

@@ -2,17 +2,15 @@
 
 #mainCont{
     margin-top: 10%;
-    background-color: black;
     padding-left: 10%;
 }
-.card{
-    
-}
+
 
 #duckImg{
     padding: 0;
     display: block;
+}
 
-    
-
+.card{
+    background-color: transparent !important;
 }

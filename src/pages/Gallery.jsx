@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarTop from "../components/NavbarTop";
 import "./Gallery.css"
-import Background from "./BGimages/bgtest6.jpg";
+import Background from "./BGimages/bgtake1.jpg";
 import mallardOne from "./BGimages/Duck/Mallard/Mallard1.jpg";
 import mallardTwo from "./BGimages/Duck/Mallard/Mallard2.jpg";
 import mallardThree from "./BGimages/Duck/Mallard/Mallard3.jpg";
@@ -38,6 +38,7 @@ class Gallery extends Component {
             </div>
           </div>
           </div>
+          {/* this is a test */}
         </div>
       </div>
     );
