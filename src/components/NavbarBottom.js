@@ -16,12 +16,12 @@ function NavbarBottom() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ">
-      <div className="col-3"><a className="nav-item nav-link active" href="./About">About The Artist<span className="sr-only">(current)</span></a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Gallery">Gallery</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Awards">Awards</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Services">Services</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Contact">Contact</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Reviews">Reviews</a></div>
+      <div className="col-3"><a className="nav-item nav-link active" activeClassName="chosen" href="./About">About The Artist<span className="sr-only">(current)</span></a></div>
+      <div className="col-3"><a id="awardNav" className="nav-item nav-link" activeClassName="chosen" href="./Gallery">Gallery</a></div>
+      <div className="col-3"><a className="nav-item nav-link" activeClassName="chosen" href="./Awards">Awards</a></div>
+      <div className="col-3"><a className="nav-item nav-link" activeClassName="chosen" href="./Services">Services</a></div>
+      <div className="col-3"><a className="nav-item nav-link" activeClassName="chosen" href="./Contact">Contact</a></div>
+      <div className="col-3"><a className="nav-item nav-link" activeClassName="chosen" href="./Reviews">Reviews</a></div>
       
       </div>
     </div>

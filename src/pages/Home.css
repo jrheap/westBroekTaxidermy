@@ -2,6 +2,10 @@
 body{
 }
 
+.Navbar.Brand{
+    width: 30% !important;
+}
+
 .nav-item{
     color: white;
        font-size: 20px;
@@ -10,8 +14,11 @@ body{
     margin-left: 20px;
     padding-left: 45px !important;
     font-family: 'Saira Extra Condensed', sans-serif;
+}
 
-    
+.navbar-item a.chosen,
+.navbar-item a:hover {
+  background-color: white;
 }
 
 #aboutArt{
@@ -34,10 +41,8 @@ body{
     
 }
  #slogo{
-     height: 3%;
-     width: 3%;
-     margin-left: 3%;
-     margin-right: 3%
+     width:4%;
+    
  }
 
  #blogo{

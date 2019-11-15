@@ -14,3 +14,37 @@
 .card{
     background-color: transparent !important;
 }
+
+.navbar-brand{
+    width: 12% !important;
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-right: 97px;
+    color: white;
+    font-size: 19px;
+ border-right: 1px solid grey;
+padding-right: 100px;
+ font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.Nav_link:active {
+    color: teal;
+  }
+
+
+.bg-dark {
+background-color: transparent !important; 
+}
+.mr-auto{
+    width: max-content;
+}
+#smalllogo{
+    width: 34%;
+}
+
+a:nth-child(6){
+    border: none !important;
+}

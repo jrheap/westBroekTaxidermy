@@ -1,3 +1,5 @@
+
+
 #awardPhoto1{
   
 }
@@ -9,9 +11,7 @@
 .card {
     border: none;
 }
-a:active {
-    background-color: yellow;
-  }
+
 .card-img-top{
     height: auto;
     width: 300px;
@@ -36,4 +36,44 @@ margin-left: -13%;
   transform: translate(-50%, -50%);
   z-index: 3000;
   
+}
+
+
+
+.navbar-brand{
+    width: 12% !important;
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-right: 175px;
+}
+
+
+
+
+.bg-dark {
+background-color: transparent !important; 
+}
+.mr-auto{
+    width: max-content;
+}
+
+#smalllogo{
+    width: 25%;
+}
+
+h1{
+    margin-left: 30%;
+    color: white;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+}
+.list-group-flush .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
 }

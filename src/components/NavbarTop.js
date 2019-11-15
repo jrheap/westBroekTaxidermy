@@ -1,29 +1,38 @@
 import React from "react";
+import { Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
 import Slogo from "../pages/BGimages/simplifiedwhite.png";
+import { NavLink } from "react-router-dom";
+import { withRouter } from "react-router";
+
 
 
 function navbarTop() {
+ 
+
   return (
     
-    <nav className="navbar fixed-top navbar-expand-lg row">
-      <img id="slogo" alt="Slogo" src= {Slogo}/>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon" />
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav ">
-      <div className="col-3"><a className="nav-item nav-link active" href="./About">About The Artist <span className="sr-only">(current)</span></a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Gallery">Gallery</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Awards">Awards</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Services">Services</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Contact">Contact</a></div>
-      <div className="col-3"><a className="nav-item nav-link" href="./Reviews">Reviews</a></div>
-      
-      </div>
-    </div>
-  </nav>
-  
+    
+    <Navbar justify bg="dark" expand="lg" >
+  <Navbar.Brand href="/"><img id="smalllogo" alt="Small logo" src= {Slogo}/>
+</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav activeKey="" className="mr-auto ">
+      <Nav.Link   href="./About">About Me</Nav.Link>
+          <Nav.Link href="./Gallery">Gallery</Nav.Link>
+          <Nav.Link href="./Awards">Awards</Nav.Link>
+      <Nav.Link href="./Services">Services</Nav.Link>
+      <Nav.Link href="./Contact">Contact</Nav.Link>
+      <Nav.Link href="./Reviews">Reviews</Nav.Link>
+    </Nav>
+   
+  </Navbar.Collapse>
+    </Navbar>
   );
 }
+
+
 
 export default navbarTop;
