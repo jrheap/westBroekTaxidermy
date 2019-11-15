@@ -1,8 +1,6 @@
 
 
-#awardPhoto1{
-  
-}
+
 
 .card-deck{
     margin-top: 5%;
@@ -66,9 +64,9 @@ background-color: transparent !important;
 
 h1{
     margin-left: 30%;
-    color: white;
+    color: lemonchiffon;
     font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
 }
 .list-group-flush .list-group-item {
     border-right: 0;
@@ -76,4 +74,6 @@ h1{
     border-radius: 0;
     background-color: transparent;
     color: white;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
 }

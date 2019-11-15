@@ -1,0 +1,33 @@
+h2{
+    
+    color: lemonchiffon;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 60px;
+}
+
+#services{
+    margin-left: -15%;
+}
+
+#serviceList{
+    background-color: transparent !important;
+    text-align: center;
+    border-top: none !important;
+    font-size: 45px !important;
+    color: white;
+    font-family: 'Saira Extra Condensed', sans-serif;
+
+}
+.list-group-item{
+    background-color: transparent !important;
+    border-top: none !important;
+    border-right: none;
+    border-left: none;
+}
+#servImg{
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+

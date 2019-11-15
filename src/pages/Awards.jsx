@@ -54,7 +54,7 @@ class Awards extends Component {
                     </Col>
                     <Col xs>
                       <h1>2018</h1>
-                      <ListGroup variant="flush">
+                      <ListGroup variant="flush" id="awardList">
                         <ListGroup.Item>UTA Taxidermy Competition</ListGroup.Item>
                         <ListGroup.Item>
                           Best Upland Habitat-Utah Chukar and Wildlife
