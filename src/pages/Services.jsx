@@ -21,34 +21,38 @@ class Services extends Component {
           <div
             id="about"
             style={{
-                backgroundImage: `url(${Background})`
+              backgroundImage: `url(${Background})`
             }}
           >
             <NavbarTop />
             <div>
-            <Container>
-  <Row>
-    <Col id="services">
-              <h2>My Services:</h2>
-            <ListGroup  id="serviceList">
-  <ListGroup.Item>Waterfowl</ListGroup.Item>
-  <ListGroup.Item>Game Birds</ListGroup.Item>
-  <ListGroup.Item>Swan Shoulder Mounts</ListGroup.Item>
-  <ListGroup.Item>Suspended Mounts</ListGroup.Item>
+              <Container>
+                <Row>
+                  <Col id="services">
+                    <h2>My Services:</h2>
+                    <ListGroup id="serviceList">
+                      <ListGroup.Item>Waterfowl</ListGroup.Item>
+                      <ListGroup.Item>Game Birds</ListGroup.Item>
+                      <ListGroup.Item>Swan Shoulder Mounts</ListGroup.Item>
+                      <ListGroup.Item>Suspended Mounts</ListGroup.Item>
                       <ListGroup.Item>Dead Bird Mounts</ListGroup.Item>
                       <ListGroup.Item>Turkey Tail Display</ListGroup.Item>
                       <ListGroup.Item>Custom Habitat</ListGroup.Item>
-                      <ListGroup.Item>Handcrafted Bases/Pedestals</ListGroup.Item>
+                      <ListGroup.Item>
+                        Handcrafted Bases/Pedestals
+                      </ListGroup.Item>
                     </ListGroup>
-                    </Col>
-    <Col><img id="servImg"
+                  </Col>
+                  <Col>
+                    <img
+                      id="servImg"
                       src={ServTest}
                       className="card-img-top"
                       alt="Photo of award"
-                    /></Col>
-  </Row>
-
-</Container>
+                    />
+                  </Col>
+                </Row>
+              </Container>
             </div>
           </div>
         </div>
